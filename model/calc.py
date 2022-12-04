@@ -1,7 +1,7 @@
 import random
 import math
 
-def calcSustainability(brand, cloth_type, materials):
+def calcSustainability(brand, cloth_type, material_one, material_two):
     brand_weight = 0.4
     materials_weight = 0.4
 
@@ -11,10 +11,17 @@ def calcSustainability(brand, cloth_type, materials):
 def calcBrandQuality(brand):
     return 100*random.random()
 
+# Returns the material percent
+def getMaterialPercent(material):
+    
+    return 10
 
-def calcFabricQuality(brand, materials):
+# Uses vector normalization to weigh the fabric and brand processing qualities on a scale of 100
+def calcFabricQuality(brand, material_one, material_two):
     brand_weight = 0.5
-    brand_quality = calcBrandQuality(brand) * brand_weight
+    brand_quality = calcBrandQuality(brand)
+
+    materials = [material_one, material_two]
 
     material_weight = 0.5
     material_quality = 0
@@ -48,12 +55,13 @@ def calcFabricQuality(brand, materials):
         i /= mag_vec
         material_quality += i
     
-    return brand_quality + material_quality
+    return (brand_quality*brand_weight + 100*material_quality*material_weight)
 
-def calcNumOfWashes(materials):
-
+def calcNumOfWashes(num_washes, material_one, material_two):
     return 125
 
-def start_calc(brand, cloth_type, materials, num_washes, weight):
-
-    return [calcSustainability(calc), calcFabricQuality(str_data), calcNumOfWashes(str_data)]
+def start_calc(brand, cloth_type, material_one, material_two, num_washes, weight):
+    return 'hello world'
+    # return [calcSustainability(brand, cloth_type, material_one, material_two), 
+    # calcFabricQuality(material_one, material_two), 
+    # calcNumOfWashes(num_washes, material_one, material_two)]
