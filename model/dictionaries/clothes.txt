@@ -60,3 +60,4 @@ pullover
 hoodie
 sweatshirt
 windbreaker
+sweater
