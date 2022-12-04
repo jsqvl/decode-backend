@@ -40,7 +40,7 @@ def getCalc():
         calc_materials = request.args.get('materials')
         calc_num_washes = request.args.get('num_washes')
         calc_weight = request.args.get('weight')
-        calc_data = calc.start_calc(calc_brand, calc_cloth_type, calc_materials, calc_weight)
+        calc_data = calc.start_calc(calc_brand, calc_cloth_type, calc_materials, calc_num_washes, calc_weight)
     except:
         print("Error processing, check data submitted")
         return "Error processing, check data submitted"
@@ -49,7 +49,6 @@ def getCalc():
         "sustainability_rating": calc_data[0],
         "fabric_quality": calc_data[1],
         "num_washes": calc_data[2],
-        "num_washes": calc_data[3],
     })
 
 
