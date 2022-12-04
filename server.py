@@ -1,3 +1,4 @@
+import traceback
 from flask import Flask, jsonify, request
 from model import calc, scrape
 from flask_cors import CORS
@@ -14,10 +15,14 @@ class Scraped():
 # immediately when you get to this domain
 @app.route('/webscrape')
 def getScrape():
-    url_to_scrape = request.args.get('url')
-    print(url_to_scrape)
-    
-    data = scrape.start_scrape(url_to_scrape)
+    try:
+        url_to_scrape = request.args.get('url')
+        print(url_to_scrape)
+        data = scrape.start_scrape(url_to_scrape)
+    except:
+        traceback.print_exc()
+        print("Error processing, are you sure this is a valid url?")
+        return "Error processing, are you sure this is a valid url?"
 
     return jsonify({
         "cloth_type": data[0],

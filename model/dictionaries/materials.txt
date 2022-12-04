@@ -1,0 +1,12 @@
+hemp
+cotton
+linen
+polyester
+lyocell
+econyl
+pinatex
+qmonos
+bamboo
+nylon
+acrylic
+rayon
