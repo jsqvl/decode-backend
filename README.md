@@ -15,10 +15,13 @@ Front-end Code: https://github.com/shawnesquivel/sustain-hacks
 
 
 ## Challenges
-
+While the initial portion of our project went smooth, coding at an attainable and functional level of code given the time alotted seemed to be more challenging than expected.
+By starting from scratch without any previous understanding of chrome-extensions and flask, we ran into lots of compatibility issues meshing the two.
 ## Accomplishments
 
+
 ## Lessons learned
+
 
 ## Where does it go from here?
 
