@@ -7,24 +7,23 @@ Front-end Code: https://github.com/shawnesquivel/sustain-hacks
 
 
 ## How it works
-    1. Signalled by opening the front-end, processes an HTTP request and fulfils it by web-scraping the current product page's data, converting it to a JSON, and returning it to the front-end for auto-fill
-
-    2. Signalled by the extension submit button, the form information is passed via the local-host URL call, python requests separates the passed arguments, does the calculations, and returns it 
-
-## How it was built
-
+    1. Signalled by opening the front-end (clicking on the extension)
+    2. Processes an HTTP request of the webpage
+    3. Web-scrapes the current product page's data
+    4. Classifies and interprets the material data on the page
+    5. Returns the applicable/identifiable material data in JSON-readable format for auto-fill
+    6. Api request signalled by the extension submit button, 
+    7. Form information is passed via the URL call using a specific format
+    8. Back-end does the calculations and returns the calculations
 
 ## Challenges
-While the initial portion of our project went smooth, coding at an attainable and functional level of code given the time alotted seemed to be more challenging than expected.
-By starting from scratch without any previous understanding of chrome-extensions and flask, we ran into lots of compatibility issues meshing the two.
+While the planning and set-up portion of our project went smooth, coding for completion given the time alotted was the teams biggest challenge.
+It wasn't until we had to figure out how to merge the front-end and back-end together that we ran into concerns over our extensions 
+security and final functionality as the two pieces were working as intended separately.
+
 ## Accomplishments
-
-
-## Lessons learned
-
-
-## Where does it go from here?
-
+This was both of our first times working on a hybrid website/chrome extension product and we were both able to have a taste of completely brand
+new roles in our development journeys. Any opportunity I get to add a new tool to my toolkit is an exciting experience.
 
 ## Instructions
 1. See requirements.txt for the required modules/versions and install them
