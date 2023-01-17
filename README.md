@@ -1,4 +1,6 @@
 # Decode Backend
+## Contributors: Jay Esquivel Jr, Shawn Esquivel
+
 Welcome to the backend powering DECODE, the chrome extension that which helps you make greener decisions on apparel products.
 
 More details: https://devpost.com/software/decode-z8ecsg
