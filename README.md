@@ -5,6 +5,7 @@ More details: https://devpost.com/software/decode-z8ecsg
 
 Front-end Code: https://github.com/shawnesquivel/sustain-hacks
 
+![Alt Text](https://user-images.githubusercontent.com/94336773/205826346-1242214f-aa83-401a-a5c2-04465cb6499f.gif)
 
 ## How it works
     1. Signalled by opening the front-end (clicking on the extension)
@@ -38,13 +39,14 @@ a)
 To test product URL web-scraping, paste:
 localhost/webscrape?url={insert url of below here}
 
-Example Shirt
+Example Items:
+- Shirt
 https://www.urbanoutfitters.com/en-ca/shop/standard-cloth-angus-popover-polo-shirt?category=SEARCHRESULTS&color=011&searchparams=q%3Dshirt&type=REGULAR&quantity=1
 
-Jacket
+- Jacket
 https://www.adidas.ca/en/polar-fleece-nature-allover-print-1-4-zip-jacket/HK4575.html
 
-Jeans
+- Jeans
 https://ca.shein.com/High-Waist-Slant-Pocket-Straight-Leg-Jeans-p-2846834-cat-1934.html?src_identifier=st%3D2%60sc%3Djeans%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_search1670150132131&mallCode=1&scici=Search~~EditSearch~~1~~jeans~~~~0
 
 Example Jsonified Web-scraped Data:
