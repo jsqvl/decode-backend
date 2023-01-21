@@ -7,7 +7,7 @@ More details: https://devpost.com/software/decode-z8ecsg
 
 Front-end Code: https://github.com/shawnesquivel/decode
 
-![Alt Text](https://user-images.githubusercontent.com/94336773/205826346-1242214f-aa83-401a-a5c2-04465cb6499f.gif)
+![Decode's Demo Gif](https://user-images.githubusercontent.com/94336773/205826346-1242214f-aa83-401a-a5c2-04465cb6499f.gif)
 
 ## How it works
     1. Signalled by opening the front-end (clicking on the extension)
